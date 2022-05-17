@@ -53,7 +53,7 @@ struct Character
         std::cout << getName() << "'s attack damage level has been boosted to " << attackDamage << std::endl;
     }
 
-    void printStats()
+    void printStats();
     {
         std::cout << getName() << "'s stats: " << std::endl;
         std::cout << getStats(); //make your getStats() use a function from the Utility.h

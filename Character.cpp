@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 
+#include "Utility.h"
 #include "DefensiveItem.h"
 #include "HelpfulItem.h"
 
