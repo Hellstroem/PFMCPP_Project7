@@ -1,6 +1,11 @@
 #include "Utility.h"
 
 #include "AttackItem.h"
+#include "Item.h"
+#include "Dwarf.h"
+#include "Paladin.h"
+#include "DragonSlayer.h"
+#include "Dragon.h"
 #include "HelpfulItem.h"
 #include "DefensiveItem.h"
 #include "Character.h"
