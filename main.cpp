@@ -55,7 +55,6 @@ it's very easy to mess this task up.
     check each source file for things being included that aren't used.
  */
 
-#include "Item.h"
 #include "Character.h"
 #include "Dwarf.h"
 #include "Paladin.h"
@@ -83,7 +82,7 @@ int main()
     Paladin paladin { "Warrick the Paladin", 5, 2 };
     Dragon dragon { "Garry The Dragon", 200, 50 };
     DragonSlayer dragonSlayer { "Virgil the Dragon Slayer", 8, 5 };
-    
+   
     std::cout << "\nstart of battle" << std::endl;
 
     paladin.defend();
@@ -107,7 +106,7 @@ int main()
     std::vector<Character*> characters { &dwarf, &paladin, &dragon, &dragonSlayer };
     for( auto* character : characters )
         character->printStats();
-    
+
     return 0;
 }
 
